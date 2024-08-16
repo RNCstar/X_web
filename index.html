@@ -17,24 +17,141 @@
     <title>X-Web</title>
   </head>
   <body class="grid grid-cols-11 bg-black text-white">
-    <section class="left-section col-span-3 flex justify-center ">
+    <!-- left -->
+    <section class="left-section col-span-3 flex justify-center h-28">
       <div class="inner-left mt-5 grid gap-y-3">
-        <img id="logo-x-web" class="w-20" src="assets/twitter-logo.avif" alt="" />
+        <img
+          id="logo-x-web"
+          class="w-20"
+          src="assets/twitter-logo.avif"
+          alt=""
+        />
         <div class="cog-container flex justify-center items-center gap-2">
           <i class="fa fa-cog text-xl"></i>
-          <span>setting</s>
+          <span>setting</span>
         </div>
-  
       </div>
     </section>
+    <!-- center -->
     <section class="center-section col-span-4">
       <div class="inner-center"></div>
     </section>
+    <!-- right -->
     <section class="right-section col-span-3">
       <div class="inner-right">
-
+        <!-- box-1 -->
+        <div
+          id="box-1"
+          class="new border rounded-3xl border-slate-600 ms-8 p-6 flex justify-center items-center flex-col gap-y-4 mt-4"
+        >
+          <h2 class="font-bold text-xl text-start w-full">New to X</h2>
+          <p class="text-gray-500 text-sm ms-4">
+            Signup now and get your personalized timeline!
+          </p>
+          <button
+            class="bg-white text-black py-2 w-full flex justify-center items-center gap-2 rounded-full font-bold"
+          >
+            <i class="fa fa-external-link" aria-hidden="true"></i> Signup with
+            google
+          </button>
+          <button
+            class="bg-white text-black py-2 w-full flex justify-center items-center gap-2 rounded-full font-bold"
+          >
+            <i class="fa fa-external-link" aria-hidden="true"></i> Signup with
+            Apple
+          </button>
+          <button
+            class="bg-white text-black py-2 w-full flex justify-center items-center gap-2 rounded-full font-bold"
+          >
+            <i class="fa fa-user-plus" aria-hidden="true"></i> Create acount
+          </button>
+          <p>
+            By signing up, you agree to the
+            <span class="text-blue-500">Term of services</span>
+            and
+            <span class="text-blue-500">Privacy Policy</span>
+            including
+            <span class="text-blue-500">Cookies use</span>
+          </p>
+        </div>
+        <!-- box-2 -->
+        <div
+          class="you-might-like ms-7 mt-4 p-6 gap-4 grid rounded-3xl bg-gray-900"
+        >
+          <h2 class="font-bold text-xl text-start w-full">you might like</h2>
+          <div class="might-like-row flex flex-col gap-4">
+            <!-- might-like-1 -->
+            <div class="might-item grid grid-cols-5">
+              <div class="col-span-1">
+                <img
+                  class="rounded-xl w-12"
+                  src="assets/laravel.png"
+                  alt="Laravel"
+                />
+              </div>
+              <div class="col-span-4 flex justify-between items-center">
+                <div class="text-contaier">
+                  <b>Laravel</b>
+                  <p class="text-slate-500">@laravel</p>
+                </div>
+                <div class="btn-contaier">
+                  <button
+                    class="font-bold bg-white text-black py-2 px-6 rounded-full text-sm"
+                  >
+                    Follow
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- might-like-2 -->
+            <div class="might-item grid grid-cols-5">
+              <div class="col-span-1">
+                <img
+                  class="rounded-xl w-12"
+                  src="assets/bootstrap.png"
+                  alt="Laravel"
+                />
+              </div>
+              <div class="col-span-4 flex justify-between items-center">
+                <div class="text-contaier">
+                  <b>Bootstrap</b>
+                  <p class="text-slate-500">@bootstrap</p>
+                </div>
+                <div class="btn-contaier">
+                  <button
+                    class="font-bold bg-white text-black py-2 px-6 rounded-full text-sm"
+                  >
+                    Follow
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- might-like-3 -->
+            <div class="might-item grid grid-cols-5">
+              <div class="col-span-1">
+                <img
+                  class="rounded-xl w-12"
+                  src="assets/nextjs.jpeg"
+                  alt="Laravel"
+                />
+              </div>
+              <div class="col-span-4 flex justify-between items-center">
+                <div class="text-contaier">
+                  <b>Next js</b>
+                  <p class="text-slate-500">@next js</p>
+                </div>
+                <div class="btn-contaier">
+                  <button
+                    class="font-bold bg-white text-black py-2 px-6 rounded-full text-sm"
+                  >
+                    Follow
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-
     </section>
 
     <!-- my JS -->
