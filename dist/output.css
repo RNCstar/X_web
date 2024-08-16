@@ -543,6 +543,12 @@ video {
 .justify-center {
   justify-content: center;
 }
+.gap-5 {
+  gap: 1.25rem;
+}
+.gap-2 {
+  gap: 0.5rem;
+}
 .gap-y-3 {
   row-gap: 0.75rem;
 }
