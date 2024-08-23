@@ -516,6 +516,9 @@ video {
 .left-4 {
   left: 1rem;
 }
+.top-16 {
+  top: 4rem;
+}
 .col-span-1 {
   grid-column: span 1 / span 1;
 }
